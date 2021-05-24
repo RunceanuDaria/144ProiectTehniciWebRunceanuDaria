@@ -1,0 +1,250 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:wheat;
+    }
+
+.page-main h1{
+    font-size:medium;
+    color:floralwhite;
+}
+
+/*selector universal*/
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    width:100%;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.05);
+    z-index: 100;
+}
+
+.social-contact{
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social a{
+    margin: 7px 7px;
+    color: rgba(10, 23, 136, 0.7);
+    font-size: 20px;
+
+}
+
+.phone{
+    color:rgba(0,0,0,0.7);
+    margin-left: 30px;
+    font-size: 0.9rem;
+}
+
+.social a :hover{
+    color:#0b9d8a;
+    transition: all ease 0.3s;
+}
+
+.navigare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 45px;
+    margin-left: 150px;
+}
+
+.meniu{
+    text-align: center;
+
+}
+.meniu ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+
+.meniu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.meniu ul li a{
+    text-decoration: none;
+    color:teal;
+}
+
+.meniu ul li:hover{
+    background-color:rgb(219, 148, 16);
+    border-radius: 3px;
+}
+
+.sub-meniu
+{
+    display: none;
+}
+
+.meniu ul li:hover .sub-meniu{
+    display: block;
+    position: absolute;
+    background: rgb(219, 148, 16);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.meniu ul li:hover .sub-meniu ul{
+    display: block;
+    margin: 10px;
+}
+
+.meniu ul li:hover .sub-meniu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius : 0;
+    text-align: left;
+}
+
+.meniu ul li:hover .sub-meniu ul li:last-child{
+    border-bottom: none;
+}
+
+.meniu ul li:hover .sub-meniu ul li a:hover{
+    color:plum;
+}
+
+.meniu-dreapta a {
+    margin: 0px 10px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.7);
+}
+.meniu-dreapta a:hover{
+    color:plum;
+    transition: all ease 0.3s;
+}
+
+.fa-shopping-cart{
+    position: relative;
+}
+
+.numar-produse{
+    position: absolute;
+    top: -17px;
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    background-color: #0b9d8a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+img{
+    width: 250px;
+    height: 300px;
+
+}
+
+
+#lit-universala{
+    display:flex;
+    flex-wrap: wrap;
+}
+  
+.page-main h1{
+    font-size: 50px;
+    color:brown;
+    margin-left: 350px;
+}
+
+.flex-cont img{
+    height: 560px;
+    width: 450px;
+
+}
+.flex-cont{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    height: 1900px;
+    
+
+}
+
+.footer{
+    position: relative;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+     
+}
+
+@media screen and (max-width: 767px) {
+    /* telefon */
+   .social-contact{
+       display:grid;
+       grid-template-columns: 1fr;
+       grid-template-rows:1fr 1fr;
+       background-color: burlywood;
+   }
+   .meniu ul{
+    display:table-cell;
+}
+   
+   .flex-cont{
+    flex-direction: column;
+  }
+
+  .page-main h1{
+      font-size:small;
+      color:darkblue;
+
+  }
+ 
+       
+   }
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1280px){
+/*tableta*/
+.social-contact{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr;
+    background-color: rgb(235, 147, 33);
+}
+.meniu ul{
+    display:table-cell;
+}
+
+.flex-cont{
+    flex-direction: column;
+  }
+
+  .page-main h1{
+    font-size:medium;
+    color:darkmagenta;
+
+}
+ 
+   
+ }

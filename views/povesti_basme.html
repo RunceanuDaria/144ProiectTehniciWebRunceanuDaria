@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Daria" content="nume-autor">
+        <meta name="BookLovers" content="descriere">
+        <meta name="carte" content="cuvinte cheie">
+        <title>POVESTI SI BASME</title>
+        <!--style--> 
+        <link href="./CSS/template_style.css" type="text/css" rel="stylesheet">
+        <!--fav_icon-->
+        <link href="./POZE/favicon.png" rel = " schrtcut icon">
+        <!--FontAwesome_Icons-->
+        <script src = "https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+       
+    </head>
+
+    <body>
+        <!--navigare-->
+        <nav class id="navigare">
+            <!--social link-->
+            <div class = "social-contact">
+                <div class = "social">
+                    <a href ="#"><i class = "fab fa-facebook-f"></i></a>
+                    <a href ="#"><i class = "fab fa-instagram"></i></a>
+                    <a href ="#"><i class = "fab fa-youtube"></i></a>
+                    </div>
+               
+                <!--phone_number-->
+                <div class = "phone_number">
+                    <span>Call +407589878785</span>
+                </div>
+                <p id = "ora"> </p>
+            </div>
+        <!--bara meniu-->
+        <div class="navigare" >
+            <!--meniu-->
+            <div class = "meniu" id="navigator">
+            <ul>
+                <li><a href= "index.html">Acasa</a></li>
+                <li><a href= "copii.html">Copii</a>
+                    <div class = "sub-meniu" >
+                        <ul>
+                            <li><a href = "carti_scolare.html">Carti scolare</a></li>
+                            <li><a href = "povesti_basme.html">Povesti si basme</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href= "literatura_universala.html">Literatura universala</a></li>
+                <li><a href= "quiz.html">Testeza-ti cunostintele</a></li>
+                <li><a>Cumpara</a></li>
+            </ul>
+            </div>
+            <!--meniu_dreapta-->
+            <div class = "meniu-dreapta">
+                <!--cautare-->
+                <a href = "#">
+                    <i class = "fas fa-search" ></i>
+                </a>
+                 <!--utilizator-->
+                <a href = "login.html">
+                    <i class = "far fa-user" ></i>
+                </a>
+                 <!--cos_cumparaturi-->
+                <a href = "#">
+                    <i class = "fas fa-shopping-cart" >
+                    <!--numar produse-->
+                    <span class = "numar-produse">0</span>
+                    </i>
+                </a>
+                
+            </div>
+        </div>
+
+        </nav>
+        <main class="page-main">
+            <h1>POVESTI SI BASME</h1>
+            <h2>Inainte de a putea urmari recomandarile noastre, joaca-te putin !</h2>
+            <h3> Sa invatam culorile si alfabetul pentru a putea citi singuri. </h3>
+        </main>
+        <div id = "joc">
+        <p id="par">Litera pe care ai apsat-o este :</p>
+        <p id="tasta"><p>
+        <p id = "par2"> Culoarea care incepe cu litera introdusa este culoarea acestei propozitii.</p>
+       </div>
+       <div>
+        <p id = "poveste">Click "POVESTI". Asteapta 2 secunde si vei vedea titlurile povestilor recomandate.</p>
+        <button onclick="setTimeout(GenerarePovesti, 2000);" id="povesti">POVESTI</button>
+        <ul id = "lista_povesti">
+
+        </ul>
+       </div>
+       <div id="mouse"></div>
+       <footer class="footer" >
+        <h3 id= "citat">
+            Bucura-te de cat mai multe carti!
+        </h3>
+        <p class="copyright">&copy; Copyright 2021  Daria Runceanu</p>
+        <br>
+    </footer>
+       
+    <script src= "./JavaScript/pov_basme.js" ></script>
+
+        </body>
+     
+        </html>

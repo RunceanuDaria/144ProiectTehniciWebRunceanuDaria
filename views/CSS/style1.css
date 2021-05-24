@@ -1,0 +1,419 @@
+/* selector tip*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:wheat;
+    }
+
+
+/*selector universal*/
+*{
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    width:100%;
+    box-shadow: 15px 15px 30px rgba(0,0,0,0.05);
+    z-index: 100;
+}
+
+.social-contact{
+    height: 40px;
+    border: 1px solid rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social a{
+    margin: 7px 7px;
+    color: rgba(10, 23, 136, 0.7);
+    font-size: 20px;
+
+}
+
+.phone{
+    color:rgba(0,0,0,0.7);
+    margin-left: 30px;
+    font-size: 0.9rem;
+}
+
+.social a :hover{
+    color:#0b9d8a;
+    transition: all ease 0.3s;
+}
+
+.navigare{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 45px;
+}
+
+.logo img{
+    height: 150px;
+    width: 275px;
+    border-radius: 50%;
+
+}
+.meniu{
+    text-align: center;
+
+}
+.meniu ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+
+}
+
+.meniu ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.meniu ul li a{
+    text-decoration: none;
+    color:teal;
+}
+
+.meniu ul li:hover{
+    background-color:rgb(219, 148, 16);
+    border-radius: 3px;
+}
+
+.sub-meniu
+{
+    display: none;
+}
+
+.meniu ul li:hover .sub-meniu{
+    display: block;
+    position: absolute;
+    background: rgb(219, 148, 16);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.meniu ul li:hover .sub-meniu ul{
+    display: block;
+    margin: 10px;
+}
+
+.meniu ul li:hover .sub-meniu ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius : 0;
+    text-align: left;
+}
+
+.meniu ul li:hover .sub-meniu ul li:last-child{
+    border-bottom: none;
+}
+
+.meniu ul li:hover .sub-meniu ul li a:hover{
+    color:plum;
+}
+
+.meniu-dreapta a {
+    margin: 0px 10px;
+    font-size: 20px;
+    color: rgba(0,0,0,0.7);
+}
+.meniu-dreapta a:hover{
+    color:plum;
+    transition: all ease 0.3s;
+}
+
+.fa-shopping-cart{
+    position: relative;
+}
+.numar-produse{
+    position: absolute;
+    top: -17px;
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    background-color: #0b9d8a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+}
+
+.sectiune h1{
+    text-align: center;
+    color:darkblue;
+    font-size: 50px;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+.sectiune h1 span{
+    transition: linear;
+    transition-duration: 0.3s;
+  }
+.sectiune h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+
+.sectiune h1:hover span:nth-child(2){
+    margin-left: 30px
+  }
+
+.sectiune h1:hover span{
+    text-shadow: 0 0 10px #fff,
+               0 0 20px rgb(250, 245, 245), 
+               0 0 40px rgb(253, 247, 247);
+   
+  }
+
+.sectiune img {
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    float: left;
+   
+}
+
+.sectiune h2{
+    color:darkblue;
+    position: relative;
+    text-align: center;
+  
+    
+}
+
+.motivatie
+{
+    color:darkblue;
+    font-family: sans-serif;
+    font-style: italic;
+    display: contents;
+    font-size: 32px;
+    
+}
+#citat{
+    color:darkblue;
+}
+#titlu3{
+    color:brown;
+    margin-left: 70px;
+}
+#imagine3 {
+    float:right;
+    border-top: brown;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-right: 100px;
+    border-radius: 10px;
+   
+}
+
+#imagine4
+{
+    position:relative;
+    width: 500px;
+    height: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+#activitate{
+    color:brown;
+    font-size: 25px;
+    margin-left: 60px;
+    
+}
+#biblioteci{
+    color:brown;
+    margin-left: 50px;
+}
+.footer{
+    position: relative;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(2, 15vw);
+    grid-gap: 20px;
+}
+.gallery__img {
+    width: 100%;
+    height: 120%;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width: 767px) {
+    /* telefon */
+   .social-contact{
+       display:grid;
+       grid-template-columns: 1fr;
+       grid-template-rows:1fr 1fr;
+       background-color: burlywood;
+   }
+   .logo{
+       height: 3px;
+       width: 2px;
+       opacity: 0.2;
+   }
+    .meniu ul{
+        display:table-cell;
+    }
+    .sectiune h1{
+        font-size: xx-small;
+        color:brown;
+    }
+    .sectiune img{
+        position: relative;
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+
+    .motivatie{
+        font-size: x-small;
+    }
+  
+   .continut h1
+   {
+       font-size: small;
+       color:darkblue;
+   }
+   #imagine3 {
+       position: relative;
+       margin-left: 10px;
+       margin-right: 0px;
+          }
+    #activitate{
+        font-size: x-small;
+        color:darkblue;
+    }
+
+    #imagine4{
+        position:relative;
+        display:grid;
+        
+        margin-left: 10px;
+        margin-right: 0px;
+    }
+  
+    #biblioteci{
+       font-size: small;
+       color:darkblue;
+
+   }
+    .gallery{
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: repeat(6, 10vw);
+    grid-gap: 20px;
+
+    }
+    .gallery__img {
+        width: 50%;
+        height: 300%;
+        object-fit: cover;
+        margin-left: 100px;
+        
+    }
+       
+   }
+
+@media screen and (max-width: 1280px) and (min-width: 768px){
+/*tableta*/
+.social-contact{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr 1fr;
+    background-color: rgb(235, 147, 33);
+}
+
+.logo{
+    height: 3px;
+    width: 2px;
+    opacity: 0.1;
+}
+ 
+ .sectiune h1{
+     font-size: small;
+     color:darkorange;
+ }
+ .sectiune img{
+     position: relative;
+     margin-left: 20px;
+     margin-right: 0px;
+ }
+
+ .motivatie{
+     font-size: small;
+ }
+
+.continut h1
+{
+    font-size: small;
+    color:darkorange;
+}
+#imagine3 {
+    position: relative;
+    margin-left: 10px;
+    margin-right: 0px;
+       }
+ #activitate{
+     font-size: x-small;
+     color:darkorange;
+ }
+
+ #imagine4{
+     position:relative;
+     display:grid;
+     
+     margin-left: 10px;
+     margin-right: 0px;
+ }
+
+ #biblioteci{
+    font-size: small;
+    color:darkorange;
+
+}
+ .gallery{
+ display: grid;
+ grid-template-columns: repeat(2, 2fr);
+ grid-template-rows: repeat(3, 10vw);
+ grid-gap: 20px;
+
+ }
+ .gallery__img {
+     width: 50%;
+     height: 150%;
+     object-fit: cover;
+     margin-left: 100px;
+     
+ }}
+ #userContent{
+     margin-left: 125px;
+     color: brown;
+
+ }

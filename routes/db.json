@@ -1,0 +1,42 @@
+{
+	"books": [
+		{
+			"id": 1,
+			"name": "Ana Karenina",
+			"author": "Leo Tolstoy",
+			"price": "5$",
+			"description": "Anna Karenina is a novel by the Russian author Leo Tolstoy, first published in book form in 1878. \n Many writers consider Anna Karenina the greatest work of literature ever and Tolstoy himself called it his first true novel",
+			"img": "img/AnaK.jpg"
+		},
+		{
+			"id": 3,
+			"name": "Wuthering Heights",
+			"author": "Emily Brontë",
+			"price": "10$",
+			"description": "Although Wuthering Heights is now a classic of English literature, contemporaneous reviews were deeply polarised; it was controversial because of its unusually stark depiction of mental and physical cruelty, and it challenged strict Victorian ideals regarding religious hypocrisy, morality, social classes and gender inequality.",
+			"img": "img/WH.jpg"
+		},
+		{
+			"id": 4,
+			"name": "Madame Bovary",
+			"author": "Gustave Flaubert",
+			"price": "12$",
+			"description": "When the novel was first serialized in La Revue de Paris between 1 October 1856 and 15 December 1856, public prosecutors attacked the novel for obscenity. The resulting trial in January 1857 made the story notorious. After Flaubert's acquittal on 7 February 1857, Madame Bovary became a bestseller in April 1857 when it was published in two volumes.",
+			"img": "img/MB.jpg"
+		}
+	],
+	"users": [
+		{
+			"id": 5,
+			"username": "Bob",
+			"password": "Bob",
+			"email": "Bob@gmail.com"
+		},
+		{
+			"username": "Bob2",
+			"password": "Bob2",
+			"email": "Bob2",
+			"id": "cfd889d0-b7e5-11ea-a56e-d7a6275294fc"
+		}
+	]
+}

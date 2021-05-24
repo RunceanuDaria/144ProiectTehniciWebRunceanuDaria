@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Daria" content="nume-autor">
+        <meta name="BookLovers" content="descriere">
+        <meta name="carte" content="cuvinte cheie">
+        <title> BOOK LOVERS</title>
+        <!--style--> 
+        <link href="./CSS/style1.css" type="text/css" rel="stylesheet">
+        <!--fav_icon-->
+        <link href="./POZE/favicon.png" rel = " schrtcut icon">
+        <!--FontAwesome_Icons-->
+        <script src = "https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+        
+        
+       
+
+    </head>
+
+    <body>
+        <!--navigare-->
+        <nav class id="navigare">
+            <!--social link-->
+            <div class = "social-contact">
+                <div class = "social">
+                    <a href ="#"><i class = "fab fa-facebook-f"></i></a>
+                    <a href ="#"><i class = "fab fa-instagram"></i></a>
+                    <a href ="#"><i class = "fab fa-youtube"></i></a>
+                </div>
+               
+                <!--phone_number-->
+                <div class = "phone_number">
+                    <span>Call +407589878785</span>
+                </div>
+                
+                <div id="userContent"></div>
+            </div>
+        <!--bara meniu-->
+        <div class="navigare" >
+            <a href="#" class = "logo">
+                <img src = "./POZE/logo.jpg" alt="">
+            </a>
+            <!--meniu-->
+            <div class = "meniu" id="navigator">
+               
+            <ul>
+                <li> <a href = "index.html">Acasa</a></li>
+                <li><a href= "copii.html">Copii</a>
+                    <div class = "sub-meniu" >
+                        <ul>
+                            <li><a href = "carti_scolare.html">Carti scolare</a></li>
+                            <li><a href = "povesti_basme.html">Povesti si basme</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href= "literatura_universala.html">Literatura universala</a></li>
+                <li><a href= "quiz.html" id="quiz">Testeza-ti cunostintele</a></li>
+                <li><a>Cumpara</a></li>
+            </ul>
+            </div>
+            <!--meniu_dreapta-->
+            <div class = "meniu-dreapta">
+                <!--cautare-->
+                <a href = "#">
+                    <i class = "fas fa-search" ></i>
+                </a>
+                 <!--utilizator-->
+                <a href = "login.html">
+                    <i class = "far fa-user" ></i>
+                </a>
+                 <!--cos_cumparaturi-->
+                <a href = "#">
+                    <i class = "fas fa-shopping-cart" >
+                    <!--numar produse-->
+                    <span class = "numar-produse">0</span>
+                    </i>
+                </a>
+                
+            </div>
+        </div>
+
+        </nav>
+
+        <section class = "sectiune">
+            <h1><span>Bine</span> ati venit in lumea <span>cartilor!</span></h1>
+            <img  src = "./POZE/slide_2.jpg" alt="">
+            <h2> De ce citim ? </h2>
+            <div class = "motivatie">
+                <p>Cartile sunt propria noastra masina a timpului, pasaportul nostru catre oricand si oriunde, care nu are nevoie de baterii. 
+                    Multe carti au un impact puternic asupra noastra si ne inspira . 
+                </p>
+                <p>
+                    Cartile au puterea de a ilumina, de a provoca,
+                    de a innobila si de a incanta. Pe cartile bune le putem percepe ca fiind niste prieteni si mentori din aceia cu inima mare si buna,
+                   care ne invita sa ne redescoperim si sa ne aduca aminte de ceea ce e mai bun in noi, de ce suntem aici si incotro mergem.
+                </p>
+              
+            </div>
+                
+        </section>
+
+        <section>
+            <h1 id= "titlu3">Ce puteti gasi pe acest site ? </h1>
+            <img id= "imagine3" src="./POZE/slide_3.jpg" alt="">
+            <p id="activitate">Pe acest site puteti gasi recenzii si recomandari de carti pentru copii, adolescenti si adulti dintr-o gama ce include:
+               manuale scolare, povesti si basme, benzi desenate, literatura univerasala si carti de dezvoltare personala. De asemenea 
+               puteti citi online o serie de carti, dar si sa cumparati o parte din colectia noastra. </p>
+            <img id= "imagine4" src="./POZE/slide_1.jpg" alt="">
+        </section>
+
+        <section>
+            <h1 id="biblioteci">Galerie a celor mai frumoase biblioteci din lume</h1>
+            <div class="gallery">
+                <figure class="gallery__item gallery__item--1">
+                  <img src="./POZE/biblioteca1.jpg" class="gallery__img" alt="Image 1">
+                </figure>
+                <figure class="gallery__item gallery__item--2">
+                  <img src="./POZE/biblioteca2.jpg" class="gallery__img" alt="Image 2">
+                </figure>
+                <figure class="gallery__item gallery__item--3">
+                  <img src="./POZE/biblioteca3.jpg" class="gallery__img" alt="Image 3">
+                </figure>
+                <figure class="gallery__item gallery__item--4">
+                  <img src="./POZE/biblioteca4.jpg" class="gallery__img" alt="Image 4">
+                </figure>
+                <figure class="gallery__item gallery__item--5">
+                  <img src="./POZE/biblioteca5.jpg" class="gallery__img" alt="Image 5">
+                </figure>
+                <figure class="gallery__item gallery__item--6">
+                  <img src="./POZE/biblioteca6.jpg" class="gallery__img" alt="Image 6">
+                </figure>
+              </div>
+        </section>
+        <br>
+        <br>
+
+        <footer class="footer">
+            <h3 id= "citat">
+                Bucura-te de cat mai multe carti!
+            </h3>
+            <p class="copyright">&copy; Copyright 2021  Daria Runceanu</p>
+            <br>
+            <br>
+        </footer>
+        <script src = "JavaScript/validare.js" ></script>
+        <script>verifyLogin()</script>
+
+    </body>
+
+</html>
+
+    
